@@ -100,8 +100,9 @@
 
 % Fonts
 \ifpdftex
-	\usepackage[T1]{inputenc}
-	\usepackage{stix2}
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+	\usepackage[lcgreekalpha,upint]{stix2}
 \fi
 \ifluatex
 	\usepackage{fontspec}
@@ -129,11 +130,11 @@
   style=FiraCodeStyle,
   basicstyle=\mlttfamily
 }
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{backcolor}{rgb}{0.93,0.92,0.95}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \lstdefinestyle{myStyle}{
-	basicstyle=\ttfamily\footnotesize\linespread{1}\selectfont,    
-	backgroundcolor=\color{backcolour},   
+	basicstyle=\ttfamily\footnotesize\selectfont\linespread{1},    
+	backgroundcolor=\color{backcolor},   
     commentstyle=\color{codegreen},
 	captionpos=b,
 	columns=flexible,
