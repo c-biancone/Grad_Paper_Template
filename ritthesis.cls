@@ -240,7 +240,7 @@
     \degreename[MS]{Master of Science}
     \college[KGCOE]{Kate Gleason College of Engineering}
     \department{Department of Electrical and Microelectronic Engineering}
-    \logo[15em]{kgcoelogo2019horiz}
+    \logo[15em]{COE_EME_1505C_hor_k1}
     \city{Rochester, New York}
     \university[RIT]{Rochester Institute of Technology}
 }
